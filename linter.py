@@ -11,3 +11,8 @@ print(f"Score: {score}")
 
 if score < TRESHOLD:
    print(f"Linter failed, Score: {score} < treshold")
+   
+sys.exit(1)
+
+
+sys.exit(0)
